@@ -1,0 +1,66 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ec863fbb9b.js" crossorigin="anonymous"></script>
+    <title>Crypco</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="contener">
+        <div class="header">
+            <a href="#"><img src="ft.png" class="logo"></a>
+            <ul class="navg">
+                <li><a href="/SignUp/indexReg.html"><i class="sgn"></i>Sign Up</a></li>
+                <li><a href="/Login/indexLog.html">Log In</a></li>
+            </ul>
+            <nav>
+            <ul id="sidemenu">
+                <li><a href="#"><i class="fa-solid fa-wallet"></i>Buy Crypto</a></li>
+                <li><a href="#"><i class="fa-solid fa-chart-line"></i>Markets</a></li>
+                <li><a href="#"><i class="fa-solid fa-headset"></i>Support</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!---
+        </div>
+        <div class="contentt">
+            <a href="#"><img src="ft1.png" alt="" class="lgo"></a>
+         <div class="text">
+           <h2>Hassle Free<br>Exchange With <span>Us.</span></h2>
+           <p>Welcome to Crypco, your trusted destination for buying and selling USDT with ease and security. Whether you're a seasoned trader or new to cryptocurrency, our user-friendly interface and dedicated support team are here to ensure a seamless experience. Join our community today and start trading USDT confidently with Crypco!</p>
+         </div>
+        </div>---->
+    </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+    for(tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
