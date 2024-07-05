@@ -124,6 +124,45 @@ nav li a .fa-headset, .fa-wallet{
   font-size: 15px;
 
 }
+.contentt .lgo{
+position: fixed;
+width: 50%;
+top: 230px;
+left: 750px;
+}
+.contentt .text p{
+  width: 100%;
+  max-width: 600px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 5px 0;
+}
+.contentt .text{
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 200px;
+  left: 50px;
+}
+.contentt .text h2{
+  color: #fff;
+  font-size: 5em;
+  font-weight: 300;
+}
+.contentt .text h2 span {
+  font-weight: 700;
+}
+.contentt .text p{
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 20px 0;
+}
+
+
 /*---- for small screen-----*/
 
 nav .fa-xmark{
@@ -160,7 +199,7 @@ nav ul li{
 }
 nav ul .fa-xmark{
   position: absolute;
-  top: 20px;
+  top: 25px;
   left: 25px;
   cursor: pointer;
 }
@@ -173,5 +212,15 @@ nav .fa-bars{
 .navg{
   right: 80px;
 }
+.contentt .lgo{
+  top: 110px;
+  left: 150px;
+  width: 300px;
 }
-
+.contentt .text{
+font-size: small;
+width: 300px;
+left: 10px;
+top: 100px;
+}
+}
