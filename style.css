@@ -20,7 +20,7 @@ body{
 .header{
   padding: 10px 10%;
   width: 100%;
-  height: 80px;
+  height: 70px;
   padding: 0 100px;
   position: absolute;
   background: radial-gradient(#3bc4e09f, #eff5f4a7);
@@ -126,10 +126,10 @@ nav li a .fa-headset, .fa-wallet{
 
 }
 .contentt .lgo{
-position: absolute;
-width: 50%;
+position: relative;
+width: 45%;
 top: 230px;
-left: 750px;
+left: 500px;
 }
 .contentt .text p{
   width: 100%;
@@ -198,7 +198,7 @@ nav .fa-bars{
 }
 
 @media only screen and (max-width: 600px){
-  nav .fa-xmark{
+nav .fa-xmark{
   display: block;
   font-size: 25px;
 }
@@ -251,7 +251,11 @@ nav li a .fa-chart-line{
 .contentt .text{
 font-size: small;
 width: 300px;
-left: 10px;
+left: 30px;
 top: 100px;
+}
+.contentt .text p{
+  font-size: medium;
+  width: 2;
 }
 }
